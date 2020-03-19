@@ -1,0 +1,277 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-community_masked-view] /home/sankari/react/LensGuideApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-cardview] /home/sankari/react/LensGuideApp/node_modules/react-native-cardview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /home/sankari/react/LensGuideApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/sankari/react/LensGuideApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/sankari/react/LensGuideApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/sankari/react/LensGuideApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] /home/sankari/react/LensGuideApp/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/sankari/.gradle/caches/transforms-2/files-2.1/4fa0e8830d9b0cbd52ae214a050f33fe/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1a019d8a6ff6cecc1bf3a496e6922d3f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6212a2a429739db9331afad494f7a394/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6f097a15a5bd3acc0e04ffc7f2fee4f1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/d2af02a1c156bc3c5b9874df30aede4f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/3cc330dc067737693ab5626d89f03510/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/98d19b587140574dde2d262d08a3de8c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/5e1685493eff8ed1af12c1921ce01948/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4632c58ac057a75620728fb90e6e121d/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6260fae937a33e11ee1a78fb1225247e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e51d461f8068fdc83bced8dd1484f27f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/edb571642048280dda2350a9bffb8788/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /home/sankari/.gradle/caches/transforms-2/files-2.1/95826cde6ae97778ba931d2560c696d3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1eec83f8e60d8ff28ad3953fedd85821/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/ac6eeabe71de15c902f78855dc845063/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/958586918a8a5f03a3d68fc7aeb6217a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/27f0a0660c3742200ec65cc37fd722f5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/16fb32d595d01d0b77709ad898f6fd84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/b55e1aa78d55d65b5d08fc9a31c3f565/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/743d74ac32f3458082054c7b49ac4097/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/c2066bdcb885d0fa9d2183971eff7e85/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/8ece1b3c8bf2bdbcf162024a6fbcb7a3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/5305ba677e44cccdea43c046328a2f8b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/71f679002ce2a1bbd0456afbadb74f00/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/7bc332027a8563ab15f1e008a7474b2c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/00fde893c2497cf5a2b2ae879a91a712/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/cc309a0ebdd09ebe088d8618339b38ee/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/0fa86c8b1c8fda11561677d9bfa5ac54/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e1d24dccae5c6048ab793b61f58d3253/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/a0c5dfa5c2e9242d9341fd7a9d42a959/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/abe012b7876c829abad270534f908345/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/8fb5d8941637735b1b3471b88fbdc437/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4abdc1a022a2f3a2fd12e03bf2d019b3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/26b3f897953369d5f3d3449845ac4ca1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/6cd036fb673ae3d795292f5308f9aa30/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/40ad138de3fc4fdd7dfd9c57d5e9a3a7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/c25f80be2bab37924e57276bb63e375a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/aecf24e33ec93dd0bd12348a4111e086/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/34e704b23a79b036d3c6db293909e98a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/2bd64e88f25ec31dd80e0336419f4962/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/10c271e8cbe703b8b498dad40a838470/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/c99dfe40f6d5a8d89ac45eb0b7ca6752/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/89c75d2c3dc7e617b6095c15eae5bb1c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/100967de35d6c49adf74e1893a801347/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:2:3-29
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:2:3-29
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4632c58ac057a75620728fb90e6e121d/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4632c58ac057a75620728fb90e6e121d/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e1d24dccae5c6048ab793b61f58d3253/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e1d24dccae5c6048ab793b61f58d3253/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/abe012b7876c829abad270534f908345/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/abe012b7876c829abad270534f908345/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e1d24dccae5c6048ab793b61f58d3253/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.lensguideapp.MainActivity
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_masked-view] /home/sankari/react/LensGuideApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/sankari/react/LensGuideApp/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-cardview] /home/sankari/react/LensGuideApp/node_modules/react-native-cardview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-cardview] /home/sankari/react/LensGuideApp/node_modules/react-native-cardview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/sankari/react/LensGuideApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/sankari/react/LensGuideApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/sankari/react/LensGuideApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/sankari/react/LensGuideApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/sankari/react/LensGuideApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/sankari/react/LensGuideApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/sankari/react/LensGuideApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/sankari/react/LensGuideApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /home/sankari/react/LensGuideApp/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /home/sankari/react/LensGuideApp/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/sankari/.gradle/caches/transforms-2/files-2.1/4fa0e8830d9b0cbd52ae214a050f33fe/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/sankari/.gradle/caches/transforms-2/files-2.1/4fa0e8830d9b0cbd52ae214a050f33fe/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1a019d8a6ff6cecc1bf3a496e6922d3f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1a019d8a6ff6cecc1bf3a496e6922d3f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6212a2a429739db9331afad494f7a394/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6212a2a429739db9331afad494f7a394/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6f097a15a5bd3acc0e04ffc7f2fee4f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6f097a15a5bd3acc0e04ffc7f2fee4f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/d2af02a1c156bc3c5b9874df30aede4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/d2af02a1c156bc3c5b9874df30aede4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/3cc330dc067737693ab5626d89f03510/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/3cc330dc067737693ab5626d89f03510/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/98d19b587140574dde2d262d08a3de8c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/98d19b587140574dde2d262d08a3de8c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/5e1685493eff8ed1af12c1921ce01948/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/5e1685493eff8ed1af12c1921ce01948/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4632c58ac057a75620728fb90e6e121d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4632c58ac057a75620728fb90e6e121d/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6260fae937a33e11ee1a78fb1225247e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/6260fae937a33e11ee1a78fb1225247e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e51d461f8068fdc83bced8dd1484f27f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e51d461f8068fdc83bced8dd1484f27f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/edb571642048280dda2350a9bffb8788/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/edb571642048280dda2350a9bffb8788/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/sankari/.gradle/caches/transforms-2/files-2.1/95826cde6ae97778ba931d2560c696d3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /home/sankari/.gradle/caches/transforms-2/files-2.1/95826cde6ae97778ba931d2560c696d3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1eec83f8e60d8ff28ad3953fedd85821/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1eec83f8e60d8ff28ad3953fedd85821/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/ac6eeabe71de15c902f78855dc845063/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/ac6eeabe71de15c902f78855dc845063/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/958586918a8a5f03a3d68fc7aeb6217a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/958586918a8a5f03a3d68fc7aeb6217a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/27f0a0660c3742200ec65cc37fd722f5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/27f0a0660c3742200ec65cc37fd722f5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/16fb32d595d01d0b77709ad898f6fd84/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/16fb32d595d01d0b77709ad898f6fd84/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/b55e1aa78d55d65b5d08fc9a31c3f565/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/b55e1aa78d55d65b5d08fc9a31c3f565/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/743d74ac32f3458082054c7b49ac4097/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/743d74ac32f3458082054c7b49ac4097/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/c2066bdcb885d0fa9d2183971eff7e85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/c2066bdcb885d0fa9d2183971eff7e85/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/8ece1b3c8bf2bdbcf162024a6fbcb7a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/8ece1b3c8bf2bdbcf162024a6fbcb7a3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/5305ba677e44cccdea43c046328a2f8b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/5305ba677e44cccdea43c046328a2f8b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/71f679002ce2a1bbd0456afbadb74f00/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/71f679002ce2a1bbd0456afbadb74f00/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/7bc332027a8563ab15f1e008a7474b2c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/7bc332027a8563ab15f1e008a7474b2c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/00fde893c2497cf5a2b2ae879a91a712/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/00fde893c2497cf5a2b2ae879a91a712/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/cc309a0ebdd09ebe088d8618339b38ee/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/cc309a0ebdd09ebe088d8618339b38ee/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/0fa86c8b1c8fda11561677d9bfa5ac54/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/0fa86c8b1c8fda11561677d9bfa5ac54/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e1d24dccae5c6048ab793b61f58d3253/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e1d24dccae5c6048ab793b61f58d3253/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/a0c5dfa5c2e9242d9341fd7a9d42a959/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/a0c5dfa5c2e9242d9341fd7a9d42a959/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/abe012b7876c829abad270534f908345/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/abe012b7876c829abad270534f908345/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/8fb5d8941637735b1b3471b88fbdc437/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/8fb5d8941637735b1b3471b88fbdc437/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4abdc1a022a2f3a2fd12e03bf2d019b3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/4abdc1a022a2f3a2fd12e03bf2d019b3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/26b3f897953369d5f3d3449845ac4ca1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/26b3f897953369d5f3d3449845ac4ca1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/6cd036fb673ae3d795292f5308f9aa30/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/6cd036fb673ae3d795292f5308f9aa30/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/40ad138de3fc4fdd7dfd9c57d5e9a3a7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/40ad138de3fc4fdd7dfd9c57d5e9a3a7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/c25f80be2bab37924e57276bb63e375a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/c25f80be2bab37924e57276bb63e375a/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/aecf24e33ec93dd0bd12348a4111e086/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/aecf24e33ec93dd0bd12348a4111e086/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/34e704b23a79b036d3c6db293909e98a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/34e704b23a79b036d3c6db293909e98a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/2bd64e88f25ec31dd80e0336419f4962/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/2bd64e88f25ec31dd80e0336419f4962/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/10c271e8cbe703b8b498dad40a838470/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/10c271e8cbe703b8b498dad40a838470/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/c99dfe40f6d5a8d89ac45eb0b7ca6752/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/c99dfe40f6d5a8d89ac45eb0b7ca6752/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/89c75d2c3dc7e617b6095c15eae5bb1c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/89c75d2c3dc7e617b6095c15eae5bb1c/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/100967de35d6c49adf74e1893a801347/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/100967de35d6c49adf74e1893a801347/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/sankari/react/LensGuideApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/aecf24e33ec93dd0bd12348a4111e086/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /home/sankari/.gradle/caches/transforms-2/files-2.1/aecf24e33ec93dd0bd12348a4111e086/AndroidManifest.xml:24:22-76

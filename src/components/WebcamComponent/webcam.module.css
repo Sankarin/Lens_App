@@ -1,0 +1,222 @@
+.realMirrorButtons {
+  z-index: 3;
+  width: 135px;
+  height: 73px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background: #ffffff;
+  color: #463f90;
+}
+.clearAll {
+  position: absolute;
+  top: 390px;
+  left: 600px;
+}
+.refreshButton {
+  background: #ffffff;
+  /* border: 1px dashed #463f90; */
+  color: #463f90;
+  z-index: 2;
+  margin-bottom: 31px;
+  width: 135px;
+  height: 73px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.capture {
+  position: absolute;
+  bottom: 10px;
+  left: 225px;
+}
+.whatsaapInputForm {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  left: 300px;
+  height: 90px;
+}
+.sentImage {
+  width: 100%;
+  height: 819px;
+  object-fit: cover;
+}
+.rewardButton {
+  position: relative;
+  top: 470px;
+  left: 618px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #00cd76;
+  color: #52369b;
+}
+.confettiReward {
+  position: relative;
+  left: 650px;
+  top: 623px;
+}
+.specmakerLogo {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 240px;
+  object-fit: contain;
+}
+.sentText p {
+  font-family: Proxima-Bold;
+  position: relative;
+  top: 460px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 26px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #52369b;
+}
+.hide {
+  position: absolute;
+  right: 180px;
+  top: 5px;
+  height: 32px;
+  font-size: 16px;
+  background: linear-gradient(169deg, #27bb85, #26d078);
+  color: #fff;
+  visibility: hidden;
+}
+.input {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 20px;
+  color: #b194fd !important;
+  border: 1px solid #979797 !important;
+}
+.whatsaapButton {
+  display: flex;
+  width: fit-content;
+  height: 50px;
+  font-size: 15px;
+  background-color: #00cd76;
+  color: #52369b;
+}
+.whatsaapButton span {
+  margin-right: 5px;
+}
+.whatsaapButton span img {
+  width: 20px;
+  height: 20px;
+}
+.whatsaapButton:hover {
+  background: linear-gradient(169deg, #27bb85, #26d078);
+  color: #fff;
+}
+.webcamTextOverlay {
+  font-family: Proxima-Bold;
+  background-color: rgba(238, 238, 238, 0.6);
+  position: absolute;
+  top: 50px;
+  left: 217px;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 3;
+  padding: 12px;
+  font-size: 22px;
+  color: rgba(82, 54, 155, 1);
+  border-radius: 0px 0px 10px 10px;
+}
+.errorButton {
+  display: flex;
+  width: fit-content;
+  height: 50px;
+  font-size: 15px;
+  background-color: #999;
+  color: #ccc;
+}
+.errorButton span {
+  margin-right: 5px;
+}
+.errorButton span img {
+  width: 20px;
+  height: 20px;
+}
+.errorButton:hover {
+  cursor: not-allowed;
+}
+
+.rewardButton:hover {
+  background: linear-gradient(169deg, #27bb85, #26d078);
+  color: #fff;
+}
+.disabledSnapButton {
+  background: #999;
+  color: #ccc;
+  z-index: 2;
+  margin-bottom: 31px;
+  width: 135px;
+  height: 73px;
+  cursor: not-allowed;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.disabledSnapButton:hover {
+  cursor: not-allowed;
+}
+.refreshButton:hover {
+  background: linear-gradient(169deg, #27bb85, #26d078);
+  color: #fff;
+}
+.refreshAll {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+  height: 32px;
+  font-size: 16px;
+}
+.refreshAll i {
+  margin-right: 5px;
+}
+.sendAllButton {
+  position: absolute;
+  right: 180px;
+  top: 5px;
+  height: 32px;
+  font-size: 16px;
+  background: linear-gradient(169deg, #27bb85, #26d078);
+  color: #fff;
+}
+.multiImageDisplay {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+@media only screen and (min-width: 1920px) {
+  .rewardButton {
+    left: 44%;
+  }
+  .confettiReward {
+    left: 990px;
+  }
+  .capture {
+    position: relative;
+    top: 860px;
+    bottom: 0px;
+    left: 315px;
+  }
+  .webcamTextOverlay {
+    left: 290px;
+  }
+  .whatsaapInputForm {
+    width: 100%;
+  }
+  .whatsaapButton {
+    width: 100%;
+  }
+  .errorButton {
+    width: 100%;
+  }
+}

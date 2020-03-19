@@ -1,0 +1,84 @@
+.main {
+  position: relative;
+}
+.placeholderMainCard {
+  position: relative;
+  top: -20px;
+  height: 358px;
+  animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.placeholder {
+  width: 378px;
+  height: 353px;
+  border-radius: 30px;
+  border: 3px dashed #6889eb;
+  background-color: #f2faff;
+}
+.person {
+  position: absolute;
+  bottom: 2px;
+  left: 123px;
+}
+.title {
+  font-family: Proxima-Bold;
+  z-index: 3;
+  font-size: 23px;
+  text-align: center;
+  color: black;
+  top: 10px;
+  position: relative;
+  top: 90px;
+  left: -9px;
+  color: #52369b;
+}
+
+.base {
+  position: absolute;
+  bottom: 2px;
+  width: 380px;
+  height: 30px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #afceea;
+}
+@media only screen and (min-width: 1920px) {
+  .title {
+    left: -34px;
+  }
+  .base {
+    left: 2px;
+    width: 454px;
+  }
+  .placeholder {
+    width: 457px;
+    height: 423px;
+  }
+  .person {
+    left: 30%;
+    width: 147px;
+  }
+  .placeholderMainCard {
+    height: 458px;
+  }
+}
+.image {
+  opacity: 1;
+  display: block;
+  /* width: 100%; */
+  width: 378px;
+  height: 353px;
+  object-fit: cover;
+  /* height: auto; */
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 30px;
+  animation: fadeIn 1.5s;
+}
