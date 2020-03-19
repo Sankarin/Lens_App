@@ -6,20 +6,19 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
 
-    borderWidth:5,
-    flex: 1,
+    borderWidth:3,
     borderColor:'#e2e2e2',
-    padding:10,
     justifyContent: 'center',
     alignItems: 'center',
     margin:10,
+    width:Math.round(Dimensions.get('window').width)-30,
+  height:320,
   },
   imageStyle:
   {
-   
     width:Math.round(Dimensions.get('window').width)-50,
-    height:400,
-    resizeMode:'cover'
+  height:300,
+  resizeMode:'contain'
 },
 });
     export default styles;

@@ -7,18 +7,18 @@ const styles = StyleSheet.create({
   imageContainer: {
 
     borderWidth:5,
-    flex: 1,
     borderColor:'#e2e2e2',
-    padding:10,
     justifyContent: 'center',
     alignItems: 'center',
     margin:10,
+    width:Math.round(Dimensions.get('window').width)-30,
+  height:400,
   },
   imageStyle:
   {
-    width:Math.round(Dimensions.get('window').width)-15,
+    width:Math.round(Dimensions.get('window').width)-50,
   height:400,
-  resizeMode:'cover'
+  resizeMode:'contain'
 },
 });
     export default styles;

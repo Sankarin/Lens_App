@@ -10,7 +10,7 @@ export default class Home extends React.Component {
     constructor() {
         super();
         this.state = {
-          value: 5,
+          value: 2,
           data: [
             {
                 id:0,

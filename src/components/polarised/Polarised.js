@@ -16,11 +16,12 @@ import PolarisedGreen from "../../styles/images/lens/polarised/polarised_green.j
 import PolarisedBrown from "../../styles/images/lens/polarised/polarised_brown.jpg";
 import PolarisedGrey from "../../styles/images/lens/polarised/polarised_grey.jpg";
 import BackButton from "../backbtn/BackButton.component";
-import DynamicBtn from "../dynamicButton/DynamicButton.component";
+import DynamicCircleBtn from "../dynamicCircleBtn/DynamicCircleBtn.component";
 import { ScrollView } from "react-native-gesture-handler";
 import ComparisonSlider from "../comparison_slider/ComparisonSlider";
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 
-class Polarised extends Component {
+class Transition extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -34,19 +35,25 @@ class Polarised extends Component {
 
   componentDidMount = ()=> {
     this.setState({
-      title: "Polarised",
+      title: "Transitions",
       btnList: [
         {
           id: 0,
           name: "Brown",
+          color:'brown',
+          isSelect:true,
         },
         {
           id: 1,
           name: "Green",
+          color:'green',
+          isSelect:false,
         },
         {
           id: 2,
           name: "Gray",
+          color:'gray',
+          isSelect:false,
         }
       ]
     });
@@ -81,23 +88,32 @@ class Polarised extends Component {
     }
   };
 
+  renderItem =(data,navigation) =>{
+
+    return  <DynamicCircleBtn
+      key={data.index}
+      data={data.item}
+      navigation={navigation}
+      btnPressed={this.btnPressed}
+      list={this.state.btnList}
+    />
+    }
   render() {
     const { navigation } = this.props;
     return (
       <View style={styles.Container}>
-        <BackButton navigation={navigation} data={this.state.title} />
+           <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+        <BackButton navigation={navigation} data={this.state.title} visibility={false}/>
         <ScrollView vertical={true}>
           <View style={{ flexDirection: "column", alignItems: "center" }}>
-            {this.state.btnList.map((item, key) => {
-              return (
-                <DynamicBtn
-                  key={key}
-                  data={item}
-                  navigation={navigation}
-                  btnPressed={this.btnPressed}
-                />
-              );
-            })}
+          <FlatList 
+              horizontal={true}
+      data={this.state.btnList}
+      renderItem={item => this.renderItem(item,navigation)} 
+      keyExtractor={item => item.id.toString()}
+      extraData={this.state}
+    />
+         
           </View>
           <View style={styles.imageContainer}>
             {this.state.visibleBrown == true ? (
@@ -142,4 +158,4 @@ class Polarised extends Component {
   }
 }
 
-export default Polarised;
+export default Transition;

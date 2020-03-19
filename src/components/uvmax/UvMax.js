@@ -5,6 +5,7 @@ import standardLens from '../../styles/images/lens/uvmax/standard_lens.png';
 import uvMax from '../../styles/images/lens/uvmax/uv-max.png';
 import ComparisonSlider from '../comparison_slider/ComparisonSlider';
 import BackButton from '../backbtn/BackButton.component';
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 class UVMax extends Component {
 
     constructor(props){
@@ -24,11 +25,14 @@ class UVMax extends Component {
         const {navigation}= this.props;
 
         return (
-           <View style={styles.Container}> 
-                    <BackButton navigation={navigation} data={this.state.title} />
+           <View style={styles.MainContainer}> 
+                    <View style={styles.Container}>
+                    <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+                    <BackButton navigation={navigation} data={this.state.title} visibility={false}/>
+                    </View>
                 <View style={styles.imageContainer}>
              <ComparisonSlider 
-                  imageWidth={Math.round(Dimensions.get('window').width)-15}
+                  imageWidth={Math.round(Dimensions.get('window').width)-25}
                   imageHeight={400}
                   initialPosition={50}
                   leftImage={standardLens}

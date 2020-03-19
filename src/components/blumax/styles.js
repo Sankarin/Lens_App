@@ -1,28 +1,34 @@
 import { StyleSheet,Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
+
+  MainContainer: {  
+    backgroundColor: "#fff",
+    flex:1,
+},
     
         Container: {  
             backgroundColor: "#fff",
-            flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
         },
         imageContainer: {
 
-          borderWidth:5,
-          flex: 1,
+          borderWidth:3,
           borderColor:'#e2e2e2',
           padding:10,
           justifyContent: 'center',
           alignItems: 'center',
           margin:10,
+          marginTop:90,
+          width:Math.round(Dimensions.get('window').width)-15,
+        height:420,
         },
         imageStyle:
         {
-          width:Math.round(Dimensions.get('window').width)-15,
+          width:Math.round(Dimensions.get('window').width)-35,
         height:400,
-        resizeMode:'cover'
+        resizeMode:'contain'
       },
       
   });

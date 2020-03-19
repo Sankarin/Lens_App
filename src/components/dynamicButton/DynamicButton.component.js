@@ -15,31 +15,29 @@ export default class DynamicButton extends Component{
   buttonColorSet =(data)=>{
 
       if(data.isSelect) {
-        // return styles.containerSelect;
-        return styles.container;
+        return styles.containerSelect;
       } else {
         return styles.container;
       }
     
   }
 
-  onPressed =(data)=>{
+  onPressed =(data,list)=>{
 
-    if(data.isSelect){
-      data.isSelect=false
-     
-    }else{
-      data.isSelect=true
-   
-    }
+    list.map((elem) => {
+      elem.isSelect = false
+      if (elem.id === data.id) {
+        elem.isSelect = true
+      }
+  });
     this.props.btnPressed(data)
   }
     
    render(){
 
-    const {data}=this.props
+    const {data,list}=this.props
     return (
-        <TouchableOpacity  style={this.buttonColorSet(data)} onPress={()=>{this.onPressed(data)}}>
+        <TouchableOpacity  style={this.buttonColorSet(data)} onPress={()=>{this.onPressed(data,list)}}>
           <Text style={styles.containerText}> {data.name}</Text>
         </TouchableOpacity>
     )

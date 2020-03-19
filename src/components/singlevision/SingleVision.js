@@ -17,6 +17,7 @@ import { ScrollView } from "react-native-gesture-handler";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import FinishedFsvLens from './finishedSV/FinishedSV';
 import RxFsvLens from './rxSV/RxSV';
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -35,6 +36,9 @@ class SingleVision extends Component {
        
      })
    }
+   toggleSwitch = (value) => {
+
+  }
    MyTabs = () => {
     return (
       <Tab.Navigator
@@ -60,8 +64,9 @@ class SingleVision extends Component {
         const { navigation } = this.props;
         return (
           <View style={styles.Container}>
-            <BackButton navigation={navigation} data={this.state.title} />
-    
+               <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+            <BackButton navigation={navigation} data={this.state.title} toggleSwitch={this.toggleSwitch} visibility={true} />
+            
             <View style={styles.Container}>{this.MyTabs()}</View>
           </View>
         );

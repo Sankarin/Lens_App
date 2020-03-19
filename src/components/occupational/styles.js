@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         {
         width:Math.round(Dimensions.get('window').width)-30,
         height:300,
-        resizeMode:'contain'
+        resizeMode:'center'
       },
       
   });

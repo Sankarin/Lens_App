@@ -7,6 +7,7 @@ import  image1 from '../../styles/images/lens/occupational/ttp13.jpg';
 import image2 from '../../styles/images/lens/occupational/ttp14.jpg';
 import image3 from '../../styles/images/lens/occupational/ttp15.jpg';
 import { ScrollView } from 'react-native-gesture-handler';
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 
 class Occupational extends Component {
     constructor(props){
@@ -55,14 +56,17 @@ class Occupational extends Component {
             {
                 id:0,
                 name: 'Nova Desk',
+                isSelect:true,
              },
              {
                 id:1,   
                 name: 'Nova Office Pro',
+                isSelect:false,
               },
               {
                  id:2,   
                  name: 'Nova Room',
+                 isSelect:false,
                },
         ]
     })
@@ -73,14 +77,15 @@ class Occupational extends Component {
 
         return (
            <View style={styles.Container}> 
-                    <BackButton navigation={navigation} data={this.state.title} />
+              <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+                    <BackButton navigation={navigation} data={this.state.title} visibility={false}/>
 
                <ScrollView vertical={true}>
                <View style={{flexDirection:'column',alignItems:'center'}}>
                         {
                          this.state.btnList.map((item,key)=>{
                             return (
-                                <DynamicBtn key={key} data={item} navigation={navigation} btnPressed={this.btnPressed}/>
+                                <DynamicBtn key={key} data={item} navigation={navigation} btnPressed={this.btnPressed} list={this.state.btnList}/>
                             )
                          })
                         }

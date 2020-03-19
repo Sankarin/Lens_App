@@ -8,18 +8,17 @@ const styles = StyleSheet.create({
     MainContainer: {
       justifyContent: 'center',
       flex: 1,
+      backgroundColor:'#E2ECEE',
     },
     container: {
       flex: 1,
       justifyContent: 'center',
-      backgroundColor: '#fff',
       alignItems: 'center',
       
     },
     containerImage: {
       flex: 0.5,
       justifyContent: 'center',
-      backgroundColor: '#fff',
       alignItems: 'center',
       
     },
@@ -29,7 +28,8 @@ const styles = StyleSheet.create({
       height: 70,
       justifyContent:'center',
       margin:15,
-   
+      borderColor:'#E2ECEE',
+      borderWidth:3,
     },
    
     cardView_InsideView:{

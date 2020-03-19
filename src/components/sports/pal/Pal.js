@@ -43,10 +43,12 @@ class Pal extends Component {
             {
                 id: 0,
                 name: "Ordinary Lens",
+                isSelect:true,
               },
               {
                 id: 1,
                 name: "Nova Sun & Sports",
+                isSelect:false,
               },
          ],
          
@@ -132,6 +134,7 @@ class Pal extends Component {
                   data={item}
                   navigation={navigation}
                   btnPressed={this.btnPressed}
+                  list={this.state.btnList}
                 />
               );
             })}
@@ -153,7 +156,7 @@ class Pal extends Component {
         <MediaControls
           duration={this.state.duration}
           isLoading={this.state.isLoading}
-          mainColor="#333"
+          mainColor="#fff"
           onFullScreen={this.onFullScreen}
           onPaused={this.onPaused}
           onReplay={this.onReplay}

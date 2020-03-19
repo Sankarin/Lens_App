@@ -67,6 +67,9 @@ import styles from './styles';
      case 1:  
       navigation.navigate('Blumax', { name: 'Blumax' })
        break;
+       case 2:  
+      navigation.navigate('Transitions', { name: 'Transitions' })
+       break;
        case 3:  
        navigation.navigate('DriverWear', { name: 'DriverWear' })
         break;

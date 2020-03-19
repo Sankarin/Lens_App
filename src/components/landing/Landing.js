@@ -27,7 +27,7 @@ const Tab = createBottomTabNavigator();
             {
               return  ( <Image
                 source={require('../../styles/images/lens/frameicon.jpeg') } 
-                style={{width:30, height: 30}}
+                style={{width:30, height: 30, resizeMode:'cover'}}
                  
             />) 
             } else  if (route.name === 'Design')

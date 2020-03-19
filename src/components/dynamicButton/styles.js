@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   
     container: {
        flexDirection:'row', 
-         borderColor:'grey', 
+         borderColor:'gainsboro', 
          borderWidth:1,
          padding:5,
          margin:5,
@@ -12,22 +12,23 @@ const styles = StyleSheet.create({
          height:35,
          justifyContent:'center',
         },
+        containerSelect: {
+          flexDirection:'row', 
+            borderColor:'dimgray', 
+            borderWidth:1,
+            padding:5,
+            margin:5,
+            width:150,
+            height:35,
+            justifyContent:'center',
+            backgroundColor:'gainsboro',
+           },
     containerText:{
       alignSelf:'center',
       fontSize:14,
       color:'#000'
     },
-    containerSelect: {
-      flexDirection:'row', 
-        borderColor:'green', 
-        backgroundColor:'grey',
-        borderWidth:1,
-        padding:5,
-        margin:5,
-        width:150,
-        height:35,
-        justifyContent:'center',
-       },
+    
   
   });
     export default styles;

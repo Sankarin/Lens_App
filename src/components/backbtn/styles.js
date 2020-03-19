@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     containerImage: {
       width:25, 
       height:25,
+      alignSelf:'center',
       
     },
     subContainer: {

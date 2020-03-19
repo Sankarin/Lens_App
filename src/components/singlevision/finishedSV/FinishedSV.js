@@ -14,7 +14,6 @@ import styles from './styles';
 import DynamicBtn from "../../dynamicButton/DynamicButton.component";
 import standardFsvLens from '../../../styles/images/lens/single/s_image.png';
 import novaFsvLens from '../../../styles/images/lens/single/n_image.png';
-import ToggleSwitchBtn from '../../toggle/ToggleSwitchBtn';
 import { ScrollView } from 'react-native-gesture-handler';
 
 class FinishedSV extends Component {
@@ -36,10 +35,12 @@ class FinishedSV extends Component {
             {
                 id: 0,
                 name: "Standard FSV Lens",
+                isSelect:true,
               },
               {
                 id: 1,
                 name: "Nova FSV Lens",
+                isSelect:false,
               },
          ],
          
@@ -75,23 +76,7 @@ class FinishedSV extends Component {
         const { navigation } = this.props;
         return (
             <View style={styles.container}>
-               <View style={{ flexDirection: "row", justifyContent: "center", margin:10, }}>
-                  <ToggleSwitchBtn
-                text1 = ''                     
-                text2 = '' 
-                switchWidth = {64}              
-                switchHeight = {34}               
-                switchdirection = 'rtl'            
-                switchBorderRadius = {70}         
-                switchSpeedChange = {300}     
-                switchBorderColor = '#d4d4d4'  
-                switchBackgroundColor = '#fff'     
-                btnBorderColor = '#00a4b9'      
-                btnBackgroundColor = '#00bcd4'   
-                fontColor = '#b1b1b1'            
-                activeFontColor = '#fff'         
-            />
-            </View>
+               
                  <View style={{ flexDirection: "row", justifyContent: "center", margin:10, }}>
             {this.state.btnList.map((item, key) => {
               return (
@@ -100,6 +85,7 @@ class FinishedSV extends Component {
                   data={item}
                   navigation={navigation}
                   btnPressed={this.btnPressed}
+                  list={this.state.btnList}
                 />
               );
             })}

@@ -17,6 +17,7 @@ import { ScrollView } from "react-native-gesture-handler";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import Bifocal from './bifocal/Bifocal';
 import Pal from './pal/Pal';
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -34,6 +35,9 @@ class Multifocal extends Component {
        
      })
    }
+   toggleSwitch = (value) => {
+
+ }
 
    MyTabs = () => {
     return (
@@ -60,8 +64,9 @@ class Multifocal extends Component {
         const { navigation } = this.props;
         return (
           <View style={styles.Container}>
-            <BackButton navigation={navigation} data={this.state.title} />
-    
+               <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+            <BackButton navigation={navigation} data={this.state.title} toggleSwitch={this.toggleSwitch} visibility={true} />
+            
             <View style={styles.Container}>{this.MyTabs()}</View>
           </View>
         );

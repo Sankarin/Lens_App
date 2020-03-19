@@ -5,7 +5,7 @@ import BackButton from '../backbtn/BackButton.component';
 import DynamicBtn from '../dynamicButton/DynamicButton.component';
 import  image1 from '../../styles/images/lens/blumax/Without_Blumax.jpg';
 import image2 from '../../styles/images/lens/blumax/With_Blumax.jpg';
-
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 class Blumax extends Component {
     constructor(props){
         super(props);
@@ -43,7 +43,7 @@ class Blumax extends Component {
             {
                 id:0,
                 name: 'Ordinary Lens',
-                isSelect:false,
+                isSelect:true,
              },
              {
                 id:1,   
@@ -58,19 +58,22 @@ class Blumax extends Component {
         const {navigation}= this.props;
 
         return (
-           <View style={styles.Container}> 
-                    <BackButton navigation={navigation} data={this.state.title} />
+           <View style={styles.MainContainer}> 
+                    <View>
+                    <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+                    <BackButton navigation={navigation} data={this.state.title} visibility={false}/>
 
-                    <View style={{flexDirection:'row'}}>
+                    <View style={styles.Container}>
                         {
-                         this.state.btnList.map((item,key)=>{
+                        this.state.btnList.map((item,key)=>{
                             return (
-                                <DynamicBtn key={key} data={item} navigation={navigation} btnPressed={this.btnPressed}/>
+                                <DynamicBtn key={key} data={item} navigation={navigation} btnPressed={this.btnPressed} list={this.state.btnList}/>
                             )
-                         })
+                        })
                         }
-                    
-                    
+
+
+                    </View>
                     </View>
                 <View style={styles.imageContainer}>
                    {this.reloadImage(this.state._image)}

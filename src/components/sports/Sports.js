@@ -16,6 +16,7 @@ import { ScrollView } from "react-native-gesture-handler";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import PAL from "./pal/Pal";
 import SV from "./sv/Sv";
+import StatusBarBackground from '../statusBar/StatusBarBackground';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -57,7 +58,8 @@ class Sports extends Component {
     const { navigation } = this.props;
     return (
       <View style={styles.Container}>
-        <BackButton navigation={navigation} data={this.state.title} />
+           <StatusBarBackground style={{backgroundColor:'midnightblue'}}/>
+        <BackButton navigation={navigation} data={this.state.title} visibility={false}/>
 
         <View style={styles.Container}>{this.MyTabs()}</View>
       </View>

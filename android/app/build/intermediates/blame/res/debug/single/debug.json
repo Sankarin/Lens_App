@@ -1272,6 +1272,10 @@
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/sankari/react/LensGuideApp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
@@ -1492,6 +1496,10 @@
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/sankari/react/LensGuideApp/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -1692,6 +1700,10 @@
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/color-v23/abc_color_highlight_material.xml"
     },
     {
+        "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/sankari/react/LensGuideApp/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -1838,6 +1850,10 @@
     {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/layout_mtrl_picker_header_dialog.xml.flat",
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/res/layout/mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/sankari/react/LensGuideApp/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -2074,6 +2090,10 @@
     {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/sankari/react/LensGuideApp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/sankari/react/LensGuideApp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",

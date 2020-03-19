@@ -26,9 +26,19 @@ import styles from './styles';
   }
 
   moveToScreen=(item)=>{
-        console.log(item.id)
+    
     const {navigation} =this.props;
-   // navigation.navigate('Landing')
+  
+    switch(item.id){
+      case 0:
+        navigation.navigate('MirrorCoating', { name: 'MirrorCoating' })
+         break;
+         case 1:
+         //  navigation.navigate('Multifocal', { name: 'Multifocal' })
+            break;
+    
+           default:
+    }
 }
 
 renderData(data) {
