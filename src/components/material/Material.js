@@ -76,6 +76,12 @@ import styles from './styles';
        case 4:  
        navigation.navigate('Polarised', { name: 'Polarised' })
         break;
+        case 5:  
+        navigation.navigate('Tints', { name: 'Tints' })
+         break;
+         case 6:  
+         navigation.navigate('Thickness', { name: 'Thickness' })
+          break;
  }
 }
 

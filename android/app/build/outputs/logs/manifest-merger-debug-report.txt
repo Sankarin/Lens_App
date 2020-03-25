@@ -14,6 +14,8 @@ MERGED from [:react-native-screens] /home/sankari/react/LensGuideApp/node_module
 MERGED from [:react-native-video] /home/sankari/react/LensGuideApp/node_modules/react-native-video/android-exoplayer/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/sankari/.gradle/caches/transforms-2/files-2.1/4fa0e8830d9b0cbd52ae214a050f33fe/AndroidManifest.xml:2:1-11:12
+MERGED from [:terrylinla_react-native-sketch-canvas] /home/sankari/react/LensGuideApp/node_modules/@terrylinla/react-native-sketch-canvas/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /home/sankari/react/LensGuideApp/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/1a019d8a6ff6cecc1bf3a496e6922d3f/AndroidManifest.xml:2:1-9:12
@@ -169,6 +171,10 @@ MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/cache
 MERGED from [com.facebook.react:react-native:0.61.5] /home/sankari/.gradle/caches/transforms-2/files-2.1/dcb442b8e1c3fa55d260536d42766ba7/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/sankari/.gradle/caches/transforms-2/files-2.1/4fa0e8830d9b0cbd52ae214a050f33fe/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/sankari/.gradle/caches/transforms-2/files-2.1/4fa0e8830d9b0cbd52ae214a050f33fe/AndroidManifest.xml:7:5-9:41
+MERGED from [:terrylinla_react-native-sketch-canvas] /home/sankari/react/LensGuideApp/node_modules/@terrylinla/react-native-sketch-canvas/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:terrylinla_react-native-sketch-canvas] /home/sankari/react/LensGuideApp/node_modules/@terrylinla/react-native-sketch-canvas/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/sankari/react/LensGuideApp/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/sankari/react/LensGuideApp/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/e36505e069ca2c3a5577d8b18734dafe/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/sankari/.gradle/caches/transforms-2/files-2.1/56a13f63100a36c48add6260be0f497e/AndroidManifest.xml:20:5-22:41

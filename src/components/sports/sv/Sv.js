@@ -56,6 +56,15 @@ class Sv extends Component {
      })
    }
    btnPressed = item => {
+
+        this.setState({
+      currentTime: 0,
+      duration: 0,
+      isFullScreen: false,
+      isLoading: true,
+      paused: false,
+      playerState: PLAYER_STATES.PLAYING,
+    });
     switch (item.id) {
       case 0:
         this.setState({
@@ -165,6 +174,7 @@ class Sv extends Component {
           playerState={this.state.playerState}
           progress={this.state.currentTime}
         />
+
        </View>
       </View>
         );

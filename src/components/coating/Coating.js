@@ -34,7 +34,7 @@ import styles from './styles';
         navigation.navigate('MirrorCoating', { name: 'MirrorCoating' })
          break;
          case 1:
-         //  navigation.navigate('Multifocal', { name: 'Multifocal' })
+          navigation.navigate('SatinCoating', { name: 'SatinCoating' })
             break;
     
            default:

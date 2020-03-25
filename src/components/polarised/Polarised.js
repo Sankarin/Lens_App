@@ -35,7 +35,7 @@ class Transition extends Component {
 
   componentDidMount = ()=> {
     this.setState({
-      title: "Transitions",
+      title: "Polarised",
       btnList: [
         {
           id: 0,

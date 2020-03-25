@@ -32,6 +32,9 @@ import Multifocal from './src/components/mulitifocal/Multifocal';
 import Sports from './src/components/sports/Sports';
 import MirrorCoating from './src/components/mirror_coating/MirrorCoating';
 import Transitions from './src/components/transition/Transition';
+import Tints from './src/components/tints/Tints';
+import Thickness from './src/components/thickness/Thickness';
+import SatinCoating from  './src/components/satin_coating/SatinCoating';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -63,13 +66,16 @@ const App= ()  => {
             <Stack.Screen name="Blumax" component={Blumax}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="Transitions" component={Transitions}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="Polarised" component={Polarised}  options={{ headerShown:false, headerBackground:'#fff' }} />
-            <Stack.Screen name="Occupational" component={Occupational}  options={{ headerShown:false, headerBackground:'#fff' }} />
+            <Stack.Screen name="Tints" component={Tints}  options={{ headerShown:false, headerBackground:'#fff' }} />
+            <Stack.Screen name="Thickness" component={Thickness}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="DriverWear" component={DriverWear}  options={{ headerShown:false, headerBackground:'#fff' }} />
-            <Stack.Screen name="Drive" component={Drive}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="SingleVision" component={SingleVision}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="Multifocal" component={Multifocal}  options={{ headerShown:false, headerBackground:'#fff' }} />
+            <Stack.Screen name="Occupational" component={Occupational}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="Sports" component={Sports}  options={{ headerShown:false, headerBackground:'#fff' }} />
+            <Stack.Screen name="Drive" component={Drive}  options={{ headerShown:false, headerBackground:'#fff' }} />
             <Stack.Screen name="MirrorCoating" component={MirrorCoating}  options={{ headerShown:false, headerBackground:'#fff' }} />
+            <Stack.Screen name="SatinCoating" component={SatinCoating}  options={{ headerShown:false, headerBackground:'#fff' }} />
     </Stack.Navigator>
   </NavigationContainer>
   );
